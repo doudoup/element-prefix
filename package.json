@@ -45,8 +45,10 @@
   "unpkg": "lib/index.js",
   "style": "lib/theme-default/index.css",
   "dependencies": {
+    "ab-loader": "file:../ab-loader",
     "async-validator": "1.6.9",
     "babel-helper-vue-jsx-merge-props": "^2.0.0",
+    "cooking-replace": "file:../cooking-replace",
     "deepmerge": "^1.2.0",
     "throttle-debounce": "^1.0.1"
   },

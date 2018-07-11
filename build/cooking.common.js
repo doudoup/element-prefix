@@ -6,7 +6,7 @@ cooking.set({
   dist: './lib',
   clean: false,
   format: 'cjs',
-  extends: ['vue2'],
+  extends: ['vue2','replace'],
   minimize: false,
   alias: config.alias,
   externals: config.externals

@@ -20,6 +20,9 @@ CSSwhat@0.4:
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/CSSwhat/-/CSSwhat-0.4.7.tgz#867da0ff39f778613242c44cfea83f0aa4ebdf9b"
 
+"ab-loader@file:../ab-loader":
+  version "1.0.0"
+
 abab@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -1355,6 +1358,9 @@ cooking-lint@^0.1.3:
     eslint-plugin-html "*"
     eslint-plugin-react "*"
     eslint-plugin-vue "*"
+
+"cooking-replace@file:../cooking-replace":
+  version "0.0.0"
 
 cooking-vue2@^0.3.0:
   version "0.3.0"

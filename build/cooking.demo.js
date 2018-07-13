@@ -19,7 +19,7 @@ cooking.set({
     docs: './examples/entry.js',
     'element-ui': './src/index.js'
   } : (isPlay ? './examples/play.js' : './examples/entry.js'),
-  dist: './examples/element-ui/',
+  dist: './examples/element-ui-prefix/',
   template: [
     {
       template: './examples/index.tpl',

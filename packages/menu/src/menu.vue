@@ -14,8 +14,8 @@
 </template>
 <script>
   import Vue from 'vue';
-  import emitter from 'element-ui/src/mixins/emitter';
-  import { addClass, removeClass, hasClass } from 'element-ui/src/utils/dom';
+  import emitter from 'element-ui-prefix/src/mixins/emitter';
+  import { addClass, removeClass, hasClass } from 'element-ui-prefix/src/utils/dom';
 
   Vue.component('el-menu-collapse-transition', {
     functional: true,

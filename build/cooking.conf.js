@@ -7,7 +7,7 @@ cooking.set({
   clean: false,
   format: 'umd',
   moduleName: 'ELEMENT',
-  extends: ['vue2','replace'],
+  extends: ['vue2','loader-prefix'],
   alias: config.alias,
   externals: { vue: config.vue }
 });

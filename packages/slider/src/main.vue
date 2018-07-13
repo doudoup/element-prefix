@@ -44,10 +44,10 @@
 </template>
 
 <script type="text/babel">
-  import ElInputNumber from 'element-ui/packages/input-number';
+  import ElInputNumber from 'element-ui-prefix/packages/input-number';
   import SliderButton from './button.vue';
-  import { getStyle } from 'element-ui/src/utils/dom';
-  import Emitter from 'element-ui/src/mixins/emitter';
+  import { getStyle } from 'element-ui-prefix/src/utils/dom';
+  import Emitter from 'element-ui-prefix/src/mixins/emitter';
 
   export default {
     name: 'ElSlider',

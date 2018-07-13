@@ -1,6 +1,6 @@
 <script>
-  import { isDef } from 'element-ui/src/utils/shared';
-  import scrollIntoView from 'element-ui/src/utils/scroll-into-view';
+  import { isDef } from 'element-ui-prefix/src/utils/shared';
+  import scrollIntoView from 'element-ui-prefix/src/utils/scroll-into-view';
 
   export default {
     name: 'ElCascaderMenu',

@@ -91,20 +91,20 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import Locale from 'element-ui/src/mixins/locale';
-  import ElInput from 'element-ui/packages/input';
+  import Emitter from 'element-ui-prefix/src/mixins/emitter';
+  import Locale from 'element-ui-prefix/src/mixins/locale';
+  import ElInput from 'element-ui-prefix/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'element-ui/packages/tag';
-  import ElScrollbar from 'element-ui/packages/scrollbar';
+  import ElTag from 'element-ui-prefix/packages/tag';
+  import ElScrollbar from 'element-ui-prefix/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'element-ui/src/utils/clickoutside';
-  import { addClass, removeClass, hasClass } from 'element-ui/src/utils/dom';
-  import { addResizeListener, removeResizeListener } from 'element-ui/src/utils/resize-event';
-  import { t } from 'element-ui/src/locale';
-  import scrollIntoView from 'element-ui/src/utils/scroll-into-view';
-  import { getValueByPath } from 'element-ui/src/utils/util';
+  import Clickoutside from 'element-ui-prefix/src/utils/clickoutside';
+  import { addClass, removeClass, hasClass } from 'element-ui-prefix/src/utils/dom';
+  import { addResizeListener, removeResizeListener } from 'element-ui-prefix/src/utils/resize-event';
+  import { t } from 'element-ui-prefix/src/locale';
+  import scrollIntoView from 'element-ui-prefix/src/utils/scroll-into-view';
+  import { getValueByPath } from 'element-ui-prefix/src/utils/util';
 
   const sizeMap = {
     'large': 42,

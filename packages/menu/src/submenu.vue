@@ -29,9 +29,9 @@
   </li>
 </template>
 <script>
-  import ElCollapseTransition from 'element-ui/src/transitions/collapse-transition';
+  import ElCollapseTransition from 'element-ui-prefix/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'element-ui/src/mixins/emitter';
+  import Emitter from 'element-ui-prefix/src/mixins/emitter';
 
   export default {
     name: 'ElSubmenu',

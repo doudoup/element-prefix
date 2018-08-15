@@ -46,6 +46,7 @@ var replace = require('./replace');
 
 ##改造步骤：
 项目启动：npm run dev
+启动之前将 'element-ui-prefix/ 替换为 'element-ui/ 之后要改回来
 项目下载：yarn
 项目打包：npm run dist
 

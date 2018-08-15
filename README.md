@@ -26,6 +26,25 @@
   </a>
 </p>
 
+## 项目说明
+这个项目是根据element-ui的v1.4.0版本改造而成的，在使用过程中的'el-'都变成了'ab-'。
+在打包的时候，修改配置，将lib目录下打包之后的文件所有的'el-'都变成了'ab-'。
+同时需要下载两个插件：ab-loader 和 cooking-loader-prefix。
+并且在整个项目中，将路径'element-ui/'改成了'element-ui-prefix/'。
+目的：可视化编辑器在客户页面上展示，当客户也用element-ui时，这样修改可避免版本冲突导致的问题。
+
+
+##改造步骤：
+1. 将build下面三个文件修改（cooking.common.js cooking.component.js cooking.conf.js）, extends: ['vue2','loader-prefix']
+2. 下载两个插件ab-loader 和 cooking-loader-prefix
+3. 将package/theme-default/gulpfile.js修改：
+var replace = require('./replace');
+.pipe(replace())
+.pipe(cssmin())
+
+4. 在package/theme-default/中添加文件repalce.js
+
+
 ## Links
 - [Home Page](http://element.eleme.io/)
 - [Docs](http://element.eleme.io/#/component)
